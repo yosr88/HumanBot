@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock</title>
+</head>
+<body>
+    <h1>Stock</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Factory ID</th>
+                <th>Total Pieces</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in stock %}
+                <tr>
+                    <td>{{ item.code_usine }}</td>
+                    <td>{{ item.total_pieces }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
