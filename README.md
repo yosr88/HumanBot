@@ -79,6 +79,7 @@ Ce fichier SQL contient les instructions pour créer les tables de la base de do
   - `app.py` est le fichier principal de l'application Flask, configurant les routes pour afficher les employés.
   - `templates/all_workers.html` est le template HTML pour afficher la liste des employés.
 
+![Capture](ws_rh_Iheb.png)
 
 
 #### Linda :
@@ -92,6 +93,7 @@ Le fichier `hb_dico.md` contient la description détaillée des tables de la bas
 ### `hb_overview.png` : Schéma logique du futur SI
 Ce fichier contient le schéma logique du futur système d'information, représentant les relations et les flux de données entre les différentes entités et services de l'entreprise.
 
+
 ### `ws_fournisseur` :
 
 - **Structure du Dossier :**
@@ -103,6 +105,7 @@ Ce fichier contient le schéma logique du futur système d'information, représe
   - `app.py` est le fichier principal de l'application Flask, configurant les routes pour afficher les livraisons récentes.
   - `templates/recent_deliveries.html` est le template HTML pour afficher les livraisons des 10 derniers jours.
 
+![Capture](ws_fournisseur_Linda.png)
 
 
 #### Yosr : 
@@ -128,6 +131,8 @@ Ce fichier SQL contient les instructions pour créer les vues nécessaires à l'
   - `config.py` contient les configurations de la base de données.
   - `app.py` est le fichier principal de l'application Flask, configurant les routes pour l'API permettant de consulter le stock de pièces par usine.
 
+![Capture](api_fournisseur_employees_Yosr.png)
+![Capture 2](api_Yosr.png)
 
 
 #### Sinthy : 
