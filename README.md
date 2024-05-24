@@ -22,41 +22,42 @@ Ce projet a pour objectif de moderniser la gestion d'une entreprise spécialisé
 - SQLAlchemy
 
 
-
 ## Structure du Projet
 
-projet/
-├── ws_rh/
-│   ├── app.py
-│   ├── config.py
-│   ├── requirements.txt
-│   └── templates/
-│       └── all_workers.html
-├── ws_stock/
-│   ├── app.py
-│   ├── config.py
-│   ├── requirements.txt
-│   └── templates/
-│       └── stock.html
-├── ws_fournisseur/
-│   ├── app.py
-│   ├── config.py
-│   ├── requirements.txt
-│   └── templates/
-│       └── recent_deliveries.html
-├── api_fournisseur/
-│   ├── app.py
-│   ├── config.py
-│   ├── requirements.txt
-├── hb_schema.sql
-├── hb_views.sql
-├── hb_funcs_procs.sql
-├── hb_triggers.sql
-├── hb_overview.png
-├── hb_dico.md
-├── hb_mcd.png
-└── hb_mld.md
-
+ws_rh/
+  app.py
+  config.py
+  requirements.txt
+  templates/
+    all_workers.html
+  
+ws_stock/
+  app.py
+  config.py
+  requirements.txt
+  templates/
+    stock.html
+  
+ws_fournisseur/
+  app.py
+  config.py
+  requirements.txt
+  templates/
+    recent_deliveries.html
+ 
+api_fournisseur/
+  app.py
+  config.py
+  requirements.txt
+  
+hb_schema.sql
+hb_views.sql
+hb_funcs_procs.sql
+hb_triggers.sql
+hb_overview.png
+hb_dico.md
+hb_mcd.png
+hb_mld.md
 
 
 ### Fichiers / Explications et Répartition des Tâches
