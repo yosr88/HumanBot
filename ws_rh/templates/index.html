@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des Employés</title>
+</head>
+<body>
+    <h1>Liste des Employés</h1>
+    <table border="1">
+        <tr>
+            <th>Code Employé</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Âge</th>
+            <th>Date d'arrivée</th>
+        </tr>
+        {% for employe in employees %}
+        <tr>
+            <td>{{ employe.code_employe }}</td>
+            <td>{{ employe.nom_employe }}</td>
+            <td>{{ employe.prenom_employe }}</td>
+            <td>{{ employe.age }}</td>
+            <td>{{ employe.date_arrivee }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
