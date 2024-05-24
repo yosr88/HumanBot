@@ -146,3 +146,5 @@ Ce fichier SQL contient les fonctions et procédures stockées, permettant d'aut
   - `config.py` contient les configurations de la base de données.
   - `app.py` est le fichier principal de l'application Flask, configurant les routes pour afficher les stocks des usines.
   - `templates/stock.html` est le template HTML pour afficher la quantité de pièces restantes par usine.
+
+![Capture](ws_stock_Sinthy.png)
