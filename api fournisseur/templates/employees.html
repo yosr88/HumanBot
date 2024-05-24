@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employees</title>
+</head>
+<body>
+    <h1>Employees</h1>
+    <ul id="employees-list"></ul>
+    <script>
+        fetch('/api/employees')
+            .then(response => response.json())
+            .then(data => {
+                const list = document.getElementById('employees-list');
+                data.forEach(employee => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${employee.nom_employe} ${employee.prenom_employe}, Age: ${employee.age}, Start Date: ${employee.date_arrivee}`;
+                    list.appendChild(listItem);
+                });
+            });
+    </script>
+</body>
+</html>
