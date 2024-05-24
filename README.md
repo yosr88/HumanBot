@@ -22,11 +22,9 @@ Ce projet a pour objectif de moderniser la gestion d'une entreprise spécialisé
 - SQLAlchemy
 
 
-```
 
 ## Structure du Projet
 
-```
 projet/
 ├── ws_rh/
 │   ├── app.py
@@ -58,11 +56,10 @@ projet/
 ├── hb_dico.md
 ├── hb_mcd.png
 └── hb_mld.md
-```
+
 
 
 ### Fichiers / Explications et Répartition des Tâches
-
 
 
 #### Iheb : 
