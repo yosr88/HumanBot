@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraisons des 10 derniers jours</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Livraisons des 10 derniers jours</h1>
+    <table border="1">
+        <tr>
+            <th>Code Livraison</th>
+            <th>Date Livraison</th>
+            <th>Quantité</th>
+            <th>Code Usine</th>
+            <th>Code Employé</th>
+            <th>Code Fournisseur</th>
+        </tr>
+        {% for delivery in deliveries %}
+        <tr>
+            <td>{{ delivery.code_livraison }}</td>
+            <td>{{ delivery.date_livraison }}</td>
+            <td>{{ delivery.quantite }}</td>
+            <td>{{ delivery.code_usine }}</td>
+            <td>{{ delivery.code_employe }}</td>
+            <td>{{ delivery.code_fournisseur }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
